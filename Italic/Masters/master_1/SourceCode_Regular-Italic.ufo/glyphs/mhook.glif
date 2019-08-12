@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="mhook" format="1">
+	<unicode hex="0271"/>
 	<advance width="600"/>
 	<outline>
 		<contour>
@@ -61,9 +62,6 @@
 			<point x="284" y="-165" type="line"/>
 			<point x="304" y="-176"/>
 			<point x="325" y="-183"/>
-		</contour>
-		<contour>
-			<point name="aboveLC" x="350" y="506" type="move"/>
 		</contour>
 	</outline>
 </glyph>

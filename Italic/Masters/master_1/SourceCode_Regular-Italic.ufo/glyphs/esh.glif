@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="esh" format="1">
+	<unicode hex="0283"/>
 	<advance width="600"/>
 	<outline>
 		<contour>
@@ -31,12 +32,6 @@
 			<point x="-18" y="-173" type="line"/>
 			<point x="8" y="-196"/>
 			<point x="52" y="-217"/>
-		</contour>
-		<contour>
-			<point name="aboveUC" x="483" y="730" type="move"/>
-		</contour>
-		<contour>
-			<point name="belowLC" x="127" y="-219" type="move"/>
 		</contour>
 	</outline>
 </glyph>

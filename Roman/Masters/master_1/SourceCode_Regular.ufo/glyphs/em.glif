@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="em" format="1">
+	<unicode hex="043C"/>
 	<advance width="600"/>
 	<outline>
 		<contour>
@@ -37,9 +38,6 @@
 			<point x="256" y="258" type="curve"/>
 			<point x="164" y="486" type="line"/>
 			<point x="64" y="486" type="line"/>
-		</contour>
-		<contour>
-			<point name="aboveLC" x="300" y="507" type="move"/>
 		</contour>
 	</outline>
 </glyph>

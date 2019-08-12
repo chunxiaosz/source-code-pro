@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icyr" format="1">
+	<unicode hex="0418"/>
 	<advance width="600"/>
 	<outline>
 		<contour>
@@ -23,9 +24,6 @@
 			<point x="158" y="316" type="curve"/>
 			<point x="158" y="656" type="line"/>
 			<point x="78" y="656" type="line"/>
-		</contour>
-		<contour>
-			<point name="aboveUC" x="304" y="676" type="move"/>
 		</contour>
 	</outline>
 </glyph>

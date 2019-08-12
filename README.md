@@ -16,7 +16,13 @@ by using the AFDKO makeotf tool.
 * [Windows](https://www.microsoft.com/en-us/Typography/TrueTypeInstall.aspx)
 * [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
 * Homebrew (macOS)<br/>
-	`brew tap caskroom/fonts && brew cask install font-source-code-pro`
+	`brew tap homebrew/cask-fonts && brew cask install font-source-code-pro`
+* Pacman (Arch Linux)<br/>
+	`pacman -S adobe-source-code-pro-fonts`
+* dnf (Fedora)<br/>
+	`sudo dnf install adobe-source-code-pro-fonts`
+* [pkg(8)](https://man.freebsd.org/pkg/8) (FreeBSD)<br/>
+	`pkg install sourcecodepro-ttf`
 * Bower<br/>
 	`bower install git://github.com/adobe-fonts/source-code-pro.git#release`
 * npm 2.x<br/>

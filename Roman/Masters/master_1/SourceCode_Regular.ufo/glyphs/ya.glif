@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ya" format="1">
+	<unicode hex="044F"/>
 	<advance width="600"/>
 	<outline>
 		<contour>
@@ -31,9 +32,6 @@
 			<point x="148" y="0" type="line"/>
 			<point x="299" y="208" type="line"/>
 			<point x="228" y="234" type="line"/>
-		</contour>
-		<contour>
-			<point name="aboveLC" x="317" y="507" type="move"/>
 		</contour>
 	</outline>
 </glyph>

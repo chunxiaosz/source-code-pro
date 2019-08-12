@@ -102,20 +102,8 @@ def processFontFile(fontFilePath, svgFilePathsList):
     svgTable.compressed = False  # GZIP the SVG docs
     svgTable.docList = svgDocsList
     font[TABLE_TAG] = svgTable
-
-    # FontTools can't overwrite a font on save,
-    # so save to a hidden file, and then rename it
-    # https://github.com/behdad/fonttools/issues/302
-    folderPath, fontFileName = os.path.split(fontFilePath)
-    fileNameNoExtension, fileExtension = os.path.splitext(fontFileName)
-    newFontFilePath = os.path.join(folderPath, "{}{}{}".format(
-        '.', fileNameNoExtension, fileExtension))
-
-    font.save(newFontFilePath)
+    font.save(fontFilePath)
     font.close()
-    # On Windows a file can't be renamed to a file that already exists
-    os.remove(fontFilePath)
-    os.rename(newFontFilePath, fontFilePath)
 
     print(
         "SVG table successfully added to {}".format(fontFilePath),
@@ -159,9 +147,9 @@ def getFontFormat(fontFilePath):
     header = f.read(256)
     head = header[:4]
     f.close()
-    if head == "OTTO":
+    if head == b"OTTO":
         return "OTF"
-    elif head in ("\0\1\0\0", "true"):
+    elif head in (b"\0\1\0\0", b"true"):
         return "TTF"
     return None
 
